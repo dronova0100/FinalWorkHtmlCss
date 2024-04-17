@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+    .nav ul{
+        display: none;
+    }
+    .navButton{
+        display: block;
+    }
+    .nav.open nav ul{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: #fff;
+        z-index: 1;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        font-size: 34px;
+        font-weight: 600; */
+    }
+    .navButton{
+        position: fixed;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+    }
+    .signupWrap{
+        padding: 20px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .signup{
+        height: 150px;
+    }
+    .signupWrapTitle{
+        font-size: 18px;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .signupWrap input[type="email"]{
+        border: 1px solid #979797;
+        width: 190px;
+        height: 30px;
+        padding-left: 12px;
+        font-size: 11px;
+        font-weight: 700;
+}
+.signupWrap input[type="email"]::placeholder{
+    font-size: 11px;
+    font-weight: 400;
+}
+.signupWrap input[type="submit"]{
+    width: 130px;
+    height: 30px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+}
